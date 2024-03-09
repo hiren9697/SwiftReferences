@@ -8,5 +8,6 @@
         <page name='PropertyOverride'/>
         <page name='ProtocolMutatingFunc'/>
         <page name='ProtocolRequiredInit'/>
+        <page name='ProtocolAssociatedType'/>
     </pages>
 </playground>
