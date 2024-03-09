@@ -7,5 +7,6 @@
         <page name='RequiredInit'/>
         <page name='PropertyOverride'/>
         <page name='ProtocolMutatingFunc'/>
+        <page name='ProtocolRequiredInit'/>
     </pages>
 </playground>
