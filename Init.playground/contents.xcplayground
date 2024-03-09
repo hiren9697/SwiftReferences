@@ -6,5 +6,6 @@
         <page name='StructInit'/>
         <page name='RequiredInit'/>
         <page name='PropertyOverride'/>
+        <page name='ProtocolMutatingFunc'/>
     </pages>
 </playground>
