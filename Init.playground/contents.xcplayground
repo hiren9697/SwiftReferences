@@ -12,5 +12,6 @@
         <page name='GenericTypeInterrogated'/>
         <page name='GenericWithObjectType'/>
         <page name='GenericTypeConstraintWithFunction'/>
+        <page name='GenericWithInheritance'/>
     </pages>
 </playground>
