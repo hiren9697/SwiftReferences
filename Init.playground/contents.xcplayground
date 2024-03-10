@@ -13,5 +13,6 @@
         <page name='GenericWithObjectType'/>
         <page name='GenericTypeConstraintWithFunction'/>
         <page name='GenericWithInheritance'/>
+        <page name='GenericAssociatedTypeChain'/>
     </pages>
 </playground>
