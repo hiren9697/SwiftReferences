@@ -10,5 +10,7 @@
         <page name='ProtocolRequiredInit'/>
         <page name='ProtocolAssociatedType'/>
         <page name='GenericTypeInterrogated'/>
+        <page name='GenericWithObjectType'/>
+        <page name='GenericTypeConstraintWithFunction'/>
     </pages>
 </playground>
