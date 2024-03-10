@@ -9,5 +9,6 @@
         <page name='ProtocolMutatingFunc'/>
         <page name='ProtocolRequiredInit'/>
         <page name='ProtocolAssociatedType'/>
+        <page name='GenericTypeInterrogated'/>
     </pages>
 </playground>
