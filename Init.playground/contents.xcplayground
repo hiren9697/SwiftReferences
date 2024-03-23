@@ -16,5 +16,6 @@
         <page name='GenericAssociatedTypeChain'/>
         <page name='WhereUsageWithGenerics'/>
         <page name='FunctionClosure'/>
+        <page name='FunctionClosureCaptureList'/>
     </pages>
 </playground>

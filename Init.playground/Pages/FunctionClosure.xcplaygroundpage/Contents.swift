@@ -20,8 +20,5 @@ functionReference()
 d1.language = "Edited"
 functionReference()
 
-// Note:
-// You can try struct instead of class
-
 
 PlaygroundPage.current.finishExecution()
