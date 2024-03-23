@@ -17,5 +17,6 @@
         <page name='WhereUsageWithGenerics'/>
         <page name='FunctionClosure'/>
         <page name='FunctionClosureCaptureList'/>
+        <page name='ArrayValueType'/>
     </pages>
 </playground>
