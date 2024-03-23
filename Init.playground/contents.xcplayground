@@ -15,5 +15,6 @@
         <page name='GenericWithInheritance'/>
         <page name='GenericAssociatedTypeChain'/>
         <page name='WhereUsageWithGenerics'/>
+        <page name='FunctionClosure'/>
     </pages>
 </playground>
