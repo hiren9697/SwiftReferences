@@ -18,5 +18,7 @@
         <page name='FunctionClosure'/>
         <page name='FunctionClosureCaptureList'/>
         <page name='ArrayValueType'/>
+        <page name='Array'/>
+        <page name='Switch'/>
     </pages>
 </playground>
