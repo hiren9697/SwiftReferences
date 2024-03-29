@@ -207,6 +207,35 @@ case let n:
     print("i is something else: \(n)")
 }
 
+// MARK: - Case let
+// --------------------------------------------------------
 if case let .number(n) = error1 {
     print("error1 is number with n: \(n)")
 }
+
+if case let .number(n) = error1, n < 0 {
+    print("erorr1 is number with negative n: \(n)")
+}
+if case let .number(n) = error1, n > 0 {
+    print("erorr1 is number with positive n: \(n)")
+}
+
+// MARK: - Assignment with switch
+// --------------------------------------------------------
+let s1: String = switch i {
+case 0: "0"
+case 1: "1"
+case 2: "2"
+default: ""
+}
+
+let s2: String = {
+    switch i {
+    case 0: "0"
+    case 1: "1"
+    case 2: "2"
+    default: ""
+    }
+}()
+
+print("S1: \(s2), S2: \(s2)")
