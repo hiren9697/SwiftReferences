@@ -22,5 +22,6 @@
         <page name='Switch'/>
         <page name='TernarayOperator'/>
         <page name='Loop'/>
+        <page name='Break'/>
     </pages>
 </playground>
