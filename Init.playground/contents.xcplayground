@@ -20,5 +20,7 @@
         <page name='ArrayValueType'/>
         <page name='Array'/>
         <page name='Switch'/>
+        <page name='TernarayOperator'/>
+        <page name='Loop'/>
     </pages>
 </playground>
