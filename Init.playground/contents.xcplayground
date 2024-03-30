@@ -23,5 +23,6 @@
         <page name='TernarayOperator'/>
         <page name='Loop'/>
         <page name='Break'/>
+        <page name='Label'/>
     </pages>
 </playground>
