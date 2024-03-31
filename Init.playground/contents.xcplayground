@@ -24,5 +24,6 @@
         <page name='Loop'/>
         <page name='Break'/>
         <page name='Label'/>
+        <page name='ErrorHandling'/>
     </pages>
 </playground>
