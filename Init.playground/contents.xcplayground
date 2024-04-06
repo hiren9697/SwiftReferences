@@ -28,5 +28,11 @@
         <page name='Defer'/>
         <page name='Failures'/>
         <page name='RetainCycle'/>
+        <page name='KeyPath'/>
+        <page name='TypeAsFunction'/>
+        <page name='DynamicMembership'/>
+        <page name='PropertyWrappers'/>
+        <page name='PropertyWrapperWithFunction'/>
+        <page name='PropertyWrapperProjectedValue'/>
     </pages>
 </playground>
