@@ -25,5 +25,8 @@
         <page name='Break'/>
         <page name='Label'/>
         <page name='ErrorHandling'/>
+        <page name='Defer'/>
+        <page name='Failures'/>
+        <page name='RetainCycle'/>
     </pages>
 </playground>
