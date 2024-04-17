@@ -34,5 +34,9 @@
         <page name='PropertyWrappers'/>
         <page name='PropertyWrapperWithFunction'/>
         <page name='PropertyWrapperProjectedValue'/>
+        <page name='MethodOverloading'/>
+        <page name='LazyVariable'/>
+        <page name='LogicalCondition'/>
+        <page name='Number'/>
     </pages>
 </playground>
