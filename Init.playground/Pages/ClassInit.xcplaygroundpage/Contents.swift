@@ -1,7 +1,7 @@
 import Foundation
 import PlaygroundSupport
 
-// MARK: - Designated init can't delegate
+// MARK: - 1. Designated init can't delegate
 // --------------------------------------------------------
 /*
 class Dance {
@@ -12,18 +12,16 @@ class Dance {
     }
 
     // Designamted init can not delegate to another designated init
-    /*
-     Designated initializer for 'Dance' cannot delegate (with 'self.init'); did you mean this to be a convenience initializer?
+    // Designated initializer for 'Dance' cannot delegate (with 'self.init'); did you mean this to be a convenience initializer?
     init() {
         self.init(type: "Hello")
     }
-     */
 }
 
 let d1 = Dance()
  */
 
-// MARK: - Default designated init
+// MARK: - 2. Default designated init
 // --------------------------------------------------------
 /*
 // Class get default designated init with no parameters, If all the params are initialized with declaration
@@ -35,11 +33,12 @@ let s1 = Screen()
  */
 
 /*
-// MARK: - Can't access properties before initializing them
+// MARK: - 3. Can't access properties before initializing them
 // --------------------------------------------------------
 class Boy {
     let id: String
     let name: String
+    let surname: String = "abc"
     
     init(id: String, name: String) {
         /*
@@ -48,15 +47,16 @@ class Boy {
          */
         self.id = id
         print(self.id) // But it is fine here
-        self.name = name
+        self.name = name + self.surname.uppercased() // But we can use initialised properties
     }
 }
  */
 
 /*
-// MARK: - Designated and Convience init
+// MARK: - 4. Designated and Convience init
 // --------------------------------------------------------
 class Human {
+    let defaultProperty = ""
     let id: String
     let name: String
     var email: String
@@ -85,6 +85,7 @@ class Human {
     convenience init() {
         // We can't use self before calling designated init
         // print(self.id) // 'self' used before 'self.init' call or assignment to 'self'
+        // self.defaultProperty // We can't use default initialized properties
         
         self.init(id: "",
                   name: "",
@@ -106,7 +107,7 @@ class Human {
  */
 
 /*
-// MARK: - Automatically inherit init
+// MARK: - 5. Automatically inherit init
 // --------------------------------------------------------
 class Machine {
     let id: String
@@ -124,7 +125,7 @@ let m1 = Machine(id: "-")
  */
 
 /*
-// MARK: - init inheritance
+// MARK: - 6. init inheritance
 // --------------------------------------------------
 class Dog {
     let name: String
@@ -156,7 +157,7 @@ let n3 = NoisyDog(name: "Hiren", license: 1)
 */
 
 /*
-// MARK: - Subclass with designated init
+// MARK: - 7. Subclass with designated init
 // --------------------------------------------------------
 class Animal {
     let id: String
@@ -197,7 +198,7 @@ class Lion: Animal {
  */
 
 /*
-// MARK: - Convience init of super from subclass's designamted
+// MARK: - 8. Convience init of super from subclass's designamted
 // --------------------------------------------------------
 class Shape {
     let id: String
@@ -230,7 +231,7 @@ class Circle: Shape {
  */
 
 /*
-// MARK: - Convenience init must call designated init
+// MARK: - 9. Convenience init must call designated init
 // -------------------------------------------------------
 class Vehicle {
     let id: String
@@ -260,7 +261,7 @@ print(b1.id)
 */
 
 /*
-// MARK: - Override init
+// MARK: - 10. Override init
 // --------------------------------------------------
 class Region {
     let id: String
@@ -288,7 +289,7 @@ class Village: Region {
 */
 
 /*
-// MARK: - Override failable init with normal init
+// MARK: - 11. Override failable init with normal init
 // --------------------------------------------------
 class Vacation {
     let id: String
