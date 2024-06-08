@@ -42,5 +42,9 @@
         <page name='Tuple'/>
         <page name='Optional'/>
         <page name='Map'/>
+        <page name='NestedType'/>
+        <page name='Enum'/>
+        <page name='ClassInheritance'/>
+        <page name='StaticAndClassProperty'/>
     </pages>
 </playground>
