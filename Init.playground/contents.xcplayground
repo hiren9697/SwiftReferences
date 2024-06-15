@@ -46,5 +46,8 @@
         <page name='Enum'/>
         <page name='ClassInheritance'/>
         <page name='StaticAndClassProperty'/>
+        <page name='Casting'/>
+        <page name='Type'/>
+        <page name='Untitled Page'/>
     </pages>
 </playground>

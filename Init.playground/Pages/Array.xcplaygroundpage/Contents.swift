@@ -32,5 +32,27 @@ print(prefixSlice)
 let suffixSlice = array.suffix(10)
 print(suffixSlice)
 
+// ---------------- Comparision ------------------
+let i1 = 1
+let i2 = 2
+let i3 = 3
+let firstComparisionArray: [Int] = [1, 2, 3]
+firstComparisionArray == [i1, i2, i3]
+
+class Dog: Equatable {
+    let id: String = UUID().uuidString
+    static func == (lhs: Dog, rhs: Dog) -> Bool {
+        lhs.id == rhs.id
+    }
+}
+class NoisyDog: Dog {}
+
+let nd1 = NoisyDog()
+let d1 = nd1 as Dog
+let nd2 = NoisyDog()
+let d2 = nd2 as Dog
+let secondComparisionArray = [d1, d2]
+let thirdComparisionArray = [nd1, nd2]
+secondComparisionArray == thirdComparisionArray
 
 PlaygroundPage.current.finishExecution()

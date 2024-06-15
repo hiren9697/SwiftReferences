@@ -12,7 +12,19 @@ class Dog {
     class var id: String {
         return "123"
     }
+    
+    func printInfo() {
+        print(Self.id)
+    }
 }
 
+class NoisyDog: Dog {
+    override class var id: String {
+        return "N123"
+    }
+}
 
-PlagroundPage.current.finishExecution()
+let d: Dog = NoisyDog()
+d.printInfo()
+
+PlaygroundPage.current.finishExecution()
